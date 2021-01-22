@@ -21,4 +21,4 @@ deploy:
     branch: master
     access_key_id: $aws-travis-assess-key
     secret_access_key:
-      secure: "$aws-travis-secret-key"
+      secure: $aws-travis-secret-key
